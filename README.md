@@ -7,19 +7,24 @@ The Thomson Reuters GHC Machine Learning/Natural Language Challenge: predict the
 ### News_Classification.ipynb
 
 1. Feature Engineering
+```
     A. Tokenization
     B. Punctuation & Stopwords Removal
     C. Lemmatization
+```
 
     
-2. Text to Features
+2. Text to Feature
+```
     A. TF-IDF
     B. LDA Topic Modeling
     C. Word Embedding (Word2Vec/GloVe)
     D. Ensemble: TF-IDF + LDA
+```
 
         
 3. Training and Hyperparameter Tuning (Ranked by GridSearchCV Best Accuracy Score)
+```
     A. SVM:  0.8947833775419982
     B. Stochastic Gradient Descen: 0.8890994063407857
     C. Logistic Regression: 0.8880889225716811
@@ -27,6 +32,7 @@ The Thomson Reuters GHC Machine Learning/Natural Language Challenge: predict the
     E. XGBoost: 0.8676266262473159
     F. KNN: 0.8556271314892004
     G. Random Forest: 0.8505747126436781
+```
     
   
 
