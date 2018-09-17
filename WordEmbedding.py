@@ -1,6 +1,3 @@
-## A module to create word embeddings for the training data using pre-train Glove and Word2Vec embeddings.
-## I've imported the module and run all models. Unfortunately all the cross-validation scores are below 0.6
-## so my final result was based on tfidf.
 
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -36,18 +33,3 @@ class WordEmbedding(object):
                         embedding[rid, wid] = np.mean(pre_trained.get_vector(word) * idf_weights, axis=0)
 
         return embedding
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
