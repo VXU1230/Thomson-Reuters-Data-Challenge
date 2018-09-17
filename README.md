@@ -1,10 +1,10 @@
-# Reuters News Data Classification using TF-IDF and Topic Modeling
+# News Data Classification using TF-IDF and Topic Modeling
 
-The Thomson Reuters GHC Machine Learning/Natural Language Challenge: predict the news category based on the news content
+The Thomson Reuters GHC Machine Learning/Natural Language Challenge: predict the news category based on the news content.
 
 # Code
 
-### News_Classification.ipynb
+## News_Classification.ipynb
 
 1. Feature Engineering
 ```
@@ -37,10 +37,10 @@ The Thomson Reuters GHC Machine Learning/Natural Language Challenge: predict the
   
 
 
-### WordEmbedding.py
+## WordEmbedding.py
 	A module to create word embedding for news data. 
 	Source: word2vec-google-news-300; glove-wiki-gigaword-300
-
+#### Usage
 	To replace the BoW with Word Embeddings, simply import the module and create a WordEmbedding object.
 	Three options to use the word embedding vectors: 
 		1. Mean
