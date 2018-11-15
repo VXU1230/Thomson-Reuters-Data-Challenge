@@ -1,6 +1,7 @@
 # News Data Classification using TF-IDF and Topic Modeling
 
-The Thomson Reuters GHC Machine Learning/Natural Language Challenge: predict the news category based on the news content.
+The Thomson Reuters GHC Machine Learning/Natural Language Challenge(Title Classification): predict the news category based on the news content.
+https://github.com/thomsonreuters/TR-DataChallenge1
 
 # Code
 
